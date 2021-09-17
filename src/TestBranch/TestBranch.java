@@ -20,7 +20,8 @@ public class TestBranch {
 	@Test
 	public void TestBranchB() {
 		Assert.assertEquals(new BranchB().str, "Branch B!");
-  @Test
+	}
+	@Test
 	public void TestBranchA() {
 		Assert.assertEquals(new BranchA().str, "Branch A!");
 
